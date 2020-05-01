@@ -5,9 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PORTAFOLIO WEB</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hola Mundo con Github Pages</h1>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hello World, <br>I'm <span>José Tineo</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe cum, natus delectus officia voluptate, laborum aliquid magni eum porro laboriosam provident ad. Hic libero eligendi optio quia! Delectus, aliquid error.</p>
+            <a href="#">Know More About my Work</a>
+
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png" alt="cuenta facebook"></a></li>
+            <li><a href="#"><img src="twitter.png" alt="cuenta twitter"></a></li>
+            <li><a href="#"><img src="linkedin.png" alt="cuenta linkedin"></a></li>
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </div>
+<script type="text/javascript">
+    function toggle(){
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+    }
+
+</script>
     
 </body>
 </html>
