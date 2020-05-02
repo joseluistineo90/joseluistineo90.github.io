@@ -344,3 +344,7 @@ a:hover span:nth-child(4) {
 header #toggle {
     margin-left: 20px;
 }
+.footer .cdd {
+    margin-top: 10px;
+    font-size: 1em;
+}
