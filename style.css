@@ -250,7 +250,7 @@ header #toggle:after
         flex-direction: column;
     }
     .sci li a {
-        margin: 1px;
+        margin: 0px;
         padding: 0px;
 
     }
