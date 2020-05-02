@@ -243,7 +243,7 @@ header #toggle:after
     }
     .sci {
         position: relative;
-        /*bottom: 50px;*/
+        bottom: 25px;
         /*right: inherit;*/
         padding: 10px;
         margin: 5px;
