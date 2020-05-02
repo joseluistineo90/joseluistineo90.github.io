@@ -177,7 +177,7 @@ header #toggle:after
     mix-blend-mode: difference;
 }
 .footer .cdd {
-    margin: 0px;
+    margin-top: 10px;
     font-size: 1em;
 }
 
