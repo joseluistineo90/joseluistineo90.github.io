@@ -222,6 +222,9 @@ header #toggle:after
         padding: 20px 50px;
         
     }
+    .logo {
+        margin-left: -20px;
+    }
     .banner {
         padding: 100px 50px 150px;
     }
