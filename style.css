@@ -251,7 +251,7 @@ header #toggle:after
     }
     .sci li a {
         margin: initial;
-        
+        padding: 5px;
 
     }
 }
