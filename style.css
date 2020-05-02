@@ -176,6 +176,10 @@ header #toggle:after
     filter: invert(1);
     mix-blend-mode: difference;
 }
+.footer .cdd {
+    margin: 0px;
+    font-size: 1em;
+}
 
 @media (max-width:767px)
 {
