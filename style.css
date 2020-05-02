@@ -246,7 +246,7 @@ header #toggle:after
         bottom: 50px;
         right: inherit;
         padding: 10px;
-        flex-direction: row;
+        flex-direction: column;
     }
     .sci li a {
         margin: initial;
