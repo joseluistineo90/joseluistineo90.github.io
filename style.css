@@ -250,7 +250,7 @@ header #toggle:after
     }
     .sci li a {
         margin: initial;
-        margin-right: -10px;
+        margin-right: 1px;
 
     }
 }
