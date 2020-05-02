@@ -245,7 +245,7 @@ header #toggle:after
         position: relative;
         bottom: 0px;
         /*right: inherit;*/
-        padding: 15px;
+        padding: 0px;
         margin: 0px;
         flex-direction: column;
     }
