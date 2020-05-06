@@ -26,6 +26,12 @@
     object-fit: cover;
     opacity: 0.25;
 }
+.content
+{
+display: inherit;
+
+
+}
 .banner .content 
 {
     position: relative;
@@ -73,77 +79,3 @@
     background-size: cover;
     cursor: pointer;
 }
-.about 
-{
-    position: relative;
-    width: 100%;
-    display: flex;
-}
-.about .contentBx
-{
-background: #162c3b;
-padding: 100px;
-width: 50%;
-}
-.heading 
-{
-    color: #fff;
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
-.text 
-{
-    color: #fff;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 1px;
-}
-.about .imgBx 
-{
-    background: url(assets/window.jpg);
-    width: 50%;
-    background-size: cover;
-    background-position: center;
-}
-.services
-{
-    background: #12222d;
-    padding: 100px;
-    text-align: center;
-}
-.services .container
-{
-    width: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 60px;
-}
-.services .container .serviceBx
-{
-    position: relative;
-    background: #fff;
-    width: 350px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.services .container .serviceBx img
-{
- max-width: 100px;
-}
-.services .container .serviceBx h2
-{
-font-weight: 500;
-font-size: 20px;
-letter-spacing: 1px;
-}
-
-
-
-
-
