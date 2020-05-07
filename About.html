@@ -14,8 +14,22 @@
         <img src="assets/moon.png" id= "moon" alt="moon">
         <img src="assets/mountain1.png" id= "mountain1" alt="mountain">
         <img src="assets/road.png" id= "road" alt="road to Caracas">
-        <h1>Caracas Digital Design</h1>
+        <h1 id="text">Caracas Digital Design</h1>
     </section>
-    
-</body>
+    <script type="text/javascript">
+        let bg = document.getElementById("bg");
+        let moon = document.getElementById("moon");
+        let mountain1 = document.getElementById("mountain1");
+        let road = document.getElementById("road");
+        let text = document.getElementById("text");
+        window.addEventListener('scroll', function () {
+            var value = window.scrollY;
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.left = -value * 0.5 + 'px';
+            mountain1.style.top = -value * 0.15 + 'px';
+            road.style.top = value * 0.15 + 'px';
+            text.style.top = value * 1 + 'px';
+            })
+    </script>
+    </body>
 </html>
