@@ -45,6 +45,7 @@ section:after
 }
 section img 
 {
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
@@ -106,13 +107,11 @@ article .two
     margin: 20px;
     shape-outside: circle();
 }
-article h2
+.texto
 {
-    display: flex;
-    color: aliceblue;
+    color: #fff;
     font-size: 2em;
-    margin-bottom: 5px;
-    margin: 1px;
+    
 }
 article p
 {
