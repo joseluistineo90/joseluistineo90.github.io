@@ -59,6 +59,8 @@ section img
 }
 #text 
 {
+  margin: 15px;  
+  width: 100%;  
   position: relative;
   margin-bottom: 200px;  
   color: aliceblue;
@@ -112,8 +114,9 @@ article .two
 }
 .texto
 {
+    margin: 8px;
     color: #fff;
-    font-size: 2em;
+    font-size: 1.8em;
     
 }
 article p
